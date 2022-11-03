@@ -1,0 +1,52 @@
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\bin\Debug\do_an.exe.config
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\bin\Debug\do_an.exe
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\bin\Debug\do_an.pdb
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.csproj.AssemblyReference.cache
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.Log_in.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.Properties.Resources.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.csproj.GenerateResource.cache
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.csproj.CoreCompileInputs.cache
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.exe
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.pdb
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.Home_admin.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.Home_nhanVien.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.Home_quanLy.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.PhongBan.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.ThongtinCaNhan.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.ThongtinTaiKhoan.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.QuenMK.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.DanhSachNV.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.DoiMatKhau.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.NghiPhepCaNhan.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.Form1.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.ChiTietHopDong.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.DanhSachKyLuat_KhenThuong.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.DanhSachLuong.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.DanhSachNghiPhep.resources
+C:\BTLT\Hệ quản trị cơ sở dữ liệu\Đồ án\do_an\do_an\obj\Debug\do_an.form.LuongNV.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\bin\Debug\do_an.exe.config
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\bin\Debug\do_an.exe
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\bin\Debug\do_an.pdb
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.Form1.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.ChiTietHopDong.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.DanhSachKyLuat_KhenThuong.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.DanhSachLuong.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.DanhSachNghiPhep.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.DanhSachNV.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.DoiMatKhau.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.Home_admin.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.Home_nhanVien.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.Home_quanLy.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.Log_in.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.LuongNV.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.NghiPhepCaNhan.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.PhongBan.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.QuenMK.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.ThongtinCaNhan.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.form.ThongtinTaiKhoan.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.Properties.Resources.resources
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.csproj.GenerateResource.cache
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.exe
+C:\Users\Lenovo\Source\Repos\DO_AN_HQTCSDL\do_an\obj\Debug\do_an.pdb
