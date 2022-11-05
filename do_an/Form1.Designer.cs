@@ -38,6 +38,7 @@ namespace do_an
             this.pn_content.Name = "pn_content";
             this.pn_content.Size = new System.Drawing.Size(1053, 534);
             this.pn_content.TabIndex = 0;
+            this.pn_content.Paint += new System.Windows.Forms.PaintEventHandler(this.pn_content_Paint);
             // 
             // Form1
             // 

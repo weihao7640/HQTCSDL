@@ -30,6 +30,13 @@ namespace do_an
 
         public static Form1 homee;
         public Form1 Homee { get => homee; private set => homee = value; }
+
+        public static string maNhanVien;
+        public string MaNhanVien { get => maNhanVien; private set => maNhanVien = value;}
+
+
+
+
         public void load_form(Form f1)
         {
             if (activeForm != null)
@@ -47,6 +54,11 @@ namespace do_an
             homee = this;
             form.Log_in f1 = new form.Log_in();
             load_form(f1);
+        }
+
+        private void pn_content_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

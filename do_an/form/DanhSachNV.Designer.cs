@@ -123,6 +123,10 @@ namespace do_an.form
             // cbb_loc_theo_phongBan
             // 
             this.cbb_loc_theo_phongBan.FormattingEnabled = true;
+            this.cbb_loc_theo_phongBan.Items.AddRange(new object[] {
+            "nhân sự",
+            "bảo vệ",
+            "thu ngân"});
             this.cbb_loc_theo_phongBan.Location = new System.Drawing.Point(205, 63);
             this.cbb_loc_theo_phongBan.Name = "cbb_loc_theo_phongBan";
             this.cbb_loc_theo_phongBan.Size = new System.Drawing.Size(102, 24);
