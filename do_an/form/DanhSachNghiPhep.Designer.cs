@@ -39,10 +39,9 @@ namespace do_an.form
             this.lb_title = new System.Windows.Forms.Label();
             this.grB_thoiGian = new System.Windows.Forms.GroupBox();
             this.grB_phongBan = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbPhongBan = new System.Windows.Forms.ComboBox();
             this.lb_phongBan = new System.Windows.Forms.Label();
             this.txt_keysearch = new System.Windows.Forms.TextBox();
-            this.btn_search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Luong)).BeginInit();
             this.grB_thoiGian.SuspendLayout();
             this.grB_phongBan.SuspendLayout();
@@ -73,6 +72,7 @@ namespace do_an.form
             this.dgv_Luong.Name = "dgv_Luong";
             this.dgv_Luong.RowHeadersWidth = 51;
             this.dgv_Luong.RowTemplate.Height = 24;
+            this.dgv_Luong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_Luong.Size = new System.Drawing.Size(662, 239);
             this.dgv_Luong.TabIndex = 30;
             // 
@@ -84,6 +84,7 @@ namespace do_an.form
             this.btn_Loc.TabIndex = 29;
             this.btn_Loc.Text = "Lọc";
             this.btn_Loc.UseVisualStyleBackColor = true;
+            this.btn_Loc.Click += new System.EventHandler(this.btn_Loc_Click);
             // 
             // cbb_year
             // 
@@ -96,6 +97,19 @@ namespace do_an.form
             // cbb_mouth
             // 
             this.cbb_mouth.FormattingEnabled = true;
+            this.cbb_mouth.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.cbb_mouth.Location = new System.Drawing.Point(61, 31);
             this.cbb_mouth.Name = "cbb_mouth";
             this.cbb_mouth.Size = new System.Drawing.Size(57, 24);
@@ -136,7 +150,7 @@ namespace do_an.form
             // 
             // grB_phongBan
             // 
-            this.grB_phongBan.Controls.Add(this.comboBox1);
+            this.grB_phongBan.Controls.Add(this.cbbPhongBan);
             this.grB_phongBan.Controls.Add(this.lb_phongBan);
             this.grB_phongBan.Location = new System.Drawing.Point(29, 112);
             this.grB_phongBan.Name = "grB_phongBan";
@@ -145,13 +159,14 @@ namespace do_an.form
             this.grB_phongBan.TabStop = false;
             this.grB_phongBan.Text = "Lọc theo phòng ban";
             // 
-            // comboBox1
+            // cbbPhongBan
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(99, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(172, 24);
-            this.comboBox1.TabIndex = 1;
+            this.cbbPhongBan.FormattingEnabled = true;
+            this.cbbPhongBan.Location = new System.Drawing.Point(99, 30);
+            this.cbbPhongBan.Name = "cbbPhongBan";
+            this.cbbPhongBan.Size = new System.Drawing.Size(172, 24);
+            this.cbbPhongBan.TabIndex = 1;
+            this.cbbPhongBan.SelectedIndexChanged += new System.EventHandler(this.cbbPhongBan_SelectedIndexChanged);
             // 
             // lb_phongBan
             // 
@@ -166,25 +181,18 @@ namespace do_an.form
             // 
             this.txt_keysearch.Location = new System.Drawing.Point(29, 73);
             this.txt_keysearch.Name = "txt_keysearch";
-            this.txt_keysearch.Size = new System.Drawing.Size(560, 22);
+            this.txt_keysearch.Size = new System.Drawing.Size(662, 22);
             this.txt_keysearch.TabIndex = 35;
             this.txt_keysearch.Text = "Nhập từ khóa tìm kiếm";
-            // 
-            // btn_search
-            // 
-            this.btn_search.Location = new System.Drawing.Point(596, 68);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(95, 33);
-            this.btn_search.TabIndex = 36;
-            this.btn_search.Text = "Tìm kiếm";
-            this.btn_search.UseVisualStyleBackColor = true;
+            this.txt_keysearch.Click += new System.EventHandler(this.txt_keysearch_Click);
+            this.txt_keysearch.TextChanged += new System.EventHandler(this.txt_keysearch_TextChanged);
+            this.txt_keysearch.Leave += new System.EventHandler(this.txt_keysearch_Leave);
             // 
             // DanhSachNghiPhep
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 450);
-            this.Controls.Add(this.btn_search);
             this.Controls.Add(this.txt_keysearch);
             this.Controls.Add(this.grB_phongBan);
             this.Controls.Add(this.grB_thoiGian);
@@ -216,9 +224,8 @@ namespace do_an.form
         private System.Windows.Forms.Label lb_title;
         private System.Windows.Forms.GroupBox grB_thoiGian;
         private System.Windows.Forms.GroupBox grB_phongBan;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbbPhongBan;
         private System.Windows.Forms.Label lb_phongBan;
         private System.Windows.Forms.TextBox txt_keysearch;
-        private System.Windows.Forms.Button btn_search;
     }
 }

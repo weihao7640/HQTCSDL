@@ -33,7 +33,6 @@ namespace do_an.form
             this.lb_title = new System.Windows.Forms.Label();
             this.dgv_DS_nhanVien = new System.Windows.Forms.DataGridView();
             this.txt_keysearch = new System.Windows.Forms.TextBox();
-            this.btn_search = new System.Windows.Forms.Button();
             this.cbb_loc_theo_phongBan = new System.Windows.Forms.ComboBox();
             this.cbb_loc_theo_chucVu = new System.Windows.Forms.ComboBox();
             this.grB_thongtinNV = new System.Windows.Forms.GroupBox();
@@ -96,6 +95,7 @@ namespace do_an.form
             this.dgv_DS_nhanVien.Name = "dgv_DS_nhanVien";
             this.dgv_DS_nhanVien.RowHeadersWidth = 51;
             this.dgv_DS_nhanVien.RowTemplate.Height = 24;
+            this.dgv_DS_nhanVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_DS_nhanVien.Size = new System.Drawing.Size(506, 360);
             this.dgv_DS_nhanVien.TabIndex = 21;
             this.dgv_DS_nhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_DS_nhanVien_CellClick);
@@ -104,26 +104,17 @@ namespace do_an.form
             // 
             this.txt_keysearch.Location = new System.Drawing.Point(18, 63);
             this.txt_keysearch.Name = "txt_keysearch";
-            this.txt_keysearch.Size = new System.Drawing.Size(181, 22);
+            this.txt_keysearch.Size = new System.Drawing.Size(291, 22);
             this.txt_keysearch.TabIndex = 22;
             this.txt_keysearch.Text = "Nhập từ khóa tìm kiếm";
             this.txt_keysearch.Click += new System.EventHandler(this.txt_keysearch_Click);
+            this.txt_keysearch.TextChanged += new System.EventHandler(this.txt_keysearch_TextChanged);
             this.txt_keysearch.Leave += new System.EventHandler(this.txt_keysearch_Leave);
-            // 
-            // btn_search
-            // 
-            this.btn_search.Location = new System.Drawing.Point(432, 63);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(92, 24);
-            this.btn_search.TabIndex = 23;
-            this.btn_search.Text = "Tìm kiếm";
-            this.btn_search.UseVisualStyleBackColor = true;
-            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // cbb_loc_theo_phongBan
             // 
             this.cbb_loc_theo_phongBan.FormattingEnabled = true;
-            this.cbb_loc_theo_phongBan.Location = new System.Drawing.Point(205, 63);
+            this.cbb_loc_theo_phongBan.Location = new System.Drawing.Point(315, 63);
             this.cbb_loc_theo_phongBan.Name = "cbb_loc_theo_phongBan";
             this.cbb_loc_theo_phongBan.Size = new System.Drawing.Size(102, 24);
             this.cbb_loc_theo_phongBan.TabIndex = 24;
@@ -131,7 +122,7 @@ namespace do_an.form
             // cbb_loc_theo_chucVu
             // 
             this.cbb_loc_theo_chucVu.FormattingEnabled = true;
-            this.cbb_loc_theo_chucVu.Location = new System.Drawing.Point(313, 63);
+            this.cbb_loc_theo_chucVu.Location = new System.Drawing.Point(423, 63);
             this.cbb_loc_theo_chucVu.Name = "cbb_loc_theo_chucVu";
             this.cbb_loc_theo_chucVu.Size = new System.Drawing.Size(102, 24);
             this.cbb_loc_theo_chucVu.TabIndex = 25;
@@ -188,6 +179,7 @@ namespace do_an.form
             this.btn_delete.TabIndex = 52;
             this.btn_delete.Text = "Xóa";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // dateTime_ngSinh
             // 
@@ -243,6 +235,9 @@ namespace do_an.form
             // cbb_gioiTinh
             // 
             this.cbb_gioiTinh.FormattingEnabled = true;
+            this.cbb_gioiTinh.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
             this.cbb_gioiTinh.Location = new System.Drawing.Point(252, 126);
             this.cbb_gioiTinh.Name = "cbb_gioiTinh";
             this.cbb_gioiTinh.Size = new System.Drawing.Size(121, 24);
@@ -305,9 +300,9 @@ namespace do_an.form
             this.lb_CV.AutoSize = true;
             this.lb_CV.Location = new System.Drawing.Point(271, 318);
             this.lb_CV.Name = "lb_CV";
-            this.lb_CV.Size = new System.Drawing.Size(80, 17);
+            this.lb_CV.Size = new System.Drawing.Size(63, 17);
             this.lb_CV.TabIndex = 37;
-            this.lb_CV.Text = "Mã chức vụ";
+            this.lb_CV.Text = "Chức vụ:";
             // 
             // lb_phongBan
             // 
@@ -419,7 +414,6 @@ namespace do_an.form
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbb_loc_theo_chucVu);
             this.Controls.Add(this.cbb_loc_theo_phongBan);
-            this.Controls.Add(this.btn_search);
             this.Controls.Add(this.txt_keysearch);
             this.Controls.Add(this.dgv_DS_nhanVien);
             this.Controls.Add(this.btn_back);
@@ -442,7 +436,6 @@ namespace do_an.form
         private System.Windows.Forms.Label lb_title;
         private System.Windows.Forms.DataGridView dgv_DS_nhanVien;
         private System.Windows.Forms.TextBox txt_keysearch;
-        private System.Windows.Forms.Button btn_search;
         private System.Windows.Forms.ComboBox cbb_loc_theo_phongBan;
         private System.Windows.Forms.ComboBox cbb_loc_theo_chucVu;
         private System.Windows.Forms.GroupBox grB_thongtinNV;
